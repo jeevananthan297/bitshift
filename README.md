@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SplitFlow — Full-stack Expense Splitter
 
 SplitFlow is a local-first group expense app built with **Vue 3 + Vite**, **FastAPI**, and **SQLite**. It supports groups, members, four split methods, expense history, balance calculation, debt simplification, settlement records, analytics, budget tracking, CSV export, demo data, and a responsive dashboard.
@@ -78,3 +79,6 @@ pytest
 - The balance page uses a greedy debtor-creditor algorithm. It produces a valid settlement plan, though it does not guarantee the globally smallest possible transaction count for every balance configuration.
 - Repayments are records only; no bank or payment provider is connected.
 - This MVP has no authentication. Do not expose it publicly or use it for sensitive real-world financial records without adding authentication, authorization, and production hardening.
+=======
+# bitshift
+>>>>>>> origin/main
