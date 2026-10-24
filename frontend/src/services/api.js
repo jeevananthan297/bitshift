@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api'
+const BASE = import.meta.env.VITE_API_BASE_URL || 'https://splitflow-phar.onrender.com/api'
 export async function api(path, options = {}) {
   const config = { ...options, headers: { ...(options.body ? { 'Content-Type': 'application/json' } : {}), ...(options.headers || {}) } }
   const response = await fetch(`${BASE}${path}`, config)
