@@ -82,4 +82,8 @@ def delete_group(group_id: int, db: Session = Depends(get_db)):
 def add_member(group_id: int, payload: MemberCreate, db: Session = Depends(get_db)):
     g = group_or_404(db, group_id)
     m = Member(group_id=group_id, name=payload.name.strip())
-    db.add(m); log(db,
+    db.add(m)
+    log(db, group_id, f'Added member "{m.name}"')
+    db.commit()
+    db.refresh(m)
+    return {"id": m.id, "name": m.name}
