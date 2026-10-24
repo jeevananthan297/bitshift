@@ -1,0 +1,41 @@
+1. Project Ideation and Requirement Analysis
+Prompt objective: Define the application's purpose, functionality, and requirements.
+ 
+“Help us develop a full-stack expense-splitting application called SplitFlow. Identify the core features, user workflows, functional requirements, and technical components needed to manage shared expenses, group members, individual contributions, outstanding balances, and settlements.”
+
+AI assistance used: Requirement clarification, feature planning, and application structure.
+
+2. Frontend Development and User Interface
+*Prompt objective:* Understand the frontend architecture and user interaction.
+ 
+“Explain how the frontend of SplitFlow works using Vue 3 and Vite. Describe the component structure, user interactions, state management, API integration, and how information is displayed to users.”
+
+AI assistance used: Frontend architecture explanation and development guidance.
+
+3. Backend Development and API Integration
+  
+“Explain how the Python FastAPI backend processes requests from the frontend, validates expense information, performs calculations, interacts with the database, and returns responses through REST API endpoints.”
+
+AI assistance used: Backend architecture explanation, API workflow understanding, and debugging guidance.
+
+### 4. Database Design and Data Processing
+*Prompt objective:* Understand data persistence and expense calculations.
+
+*Prompt summary:*  
+“Explain the role of SQLite in the expense-splitting application. Describe how group information, users, expenses, payments, balances, and settlements may be stored and retrieved, based on the actual database schema implemented in the project.”
+
+*AI assistance used:* Database concepts, data-flow analysis, and technical documentation.
+
+### 5. Full-Stack Architecture and System Workflow
+*Prompt objective:* Prepare a comprehensive explanation for technical evaluation.
+
+*Prompt summary:*  
+“Explain the complete working of the SplitFlow application, covering the frontend, backend, API communication, business logic, database operations, request-response cycle, and the flow of information from user input to displayed results.”
+
+*AI assistance used:* System architecture explanation and preparation for technical questions from evaluators.
+
+### 6. Development Environment Setup
+*Prompt objective:* Run the project locally using Visual Studio Code.
+
+*Prompt summary:*  
+“Guide us through running the SplitFlow full-stack project on Windows using VS Code and PowerShell. Explain project extraction, Python virtual-environment
