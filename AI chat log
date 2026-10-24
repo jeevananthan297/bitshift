@@ -18,24 +18,23 @@ AI assistance used: Frontend architecture explanation and development guidance.
 
 AI assistance used: Backend architecture explanation, API workflow understanding, and debugging guidance.
 
-### 4. Database Design and Data Processing
-*Prompt objective:* Understand data persistence and expense calculations.
+4. Database Design and Data Processing
+Prompt objective: Understand data persistence and expense calculations.
 
-*Prompt summary:*  
 “Explain the role of SQLite in the expense-splitting application. Describe how group information, users, expenses, payments, balances, and settlements may be stored and retrieved, based on the actual database schema implemented in the project.”
 
-*AI assistance used:* Database concepts, data-flow analysis, and technical documentation.
+AI assistance used: Database concepts, data-flow analysis, and technical documentation.
 
-### 5. Full-Stack Architecture and System Workflow
+5. Full-Stack Architecture and System Workflow
 *Prompt objective:* Prepare a comprehensive explanation for technical evaluation.
 
-*Prompt summary:*  
+
 “Explain the complete working of the SplitFlow application, covering the frontend, backend, API communication, business logic, database operations, request-response cycle, and the flow of information from user input to displayed results.”
 
-*AI assistance used:* System architecture explanation and preparation for technical questions from evaluators.
+AI assistance used: System architecture explanation and preparation for technical questions from evaluators.
 
-### 6. Development Environment Setup
-*Prompt objective:* Run the project locally using Visual Studio Code.
+6. Development Environment Setup
+Prompt objective: Run the project locally using Visual Studio Code.
 
-*Prompt summary:*  
+  
 “Guide us through running the SplitFlow full-stack project on Windows using VS Code and PowerShell. Explain project extraction, Python virtual-environment
